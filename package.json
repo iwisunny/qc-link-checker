@@ -1,0 +1,47 @@
+{
+  "name": "qc-link-checker",
+  "version": "0.1.0",
+  "description": "A qingcloud docs broken links checker",
+  "bin": {
+    "qc-lc": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "pretty": "prettier '**/*.js' --write"
+  },
+  "keywords": [
+    "qingcloud",
+    "web",
+    "crawler",
+    "healthy",
+    "link",
+    "checker"
+  ],
+  "author": "sunnyw <iwisunny@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "cheerio": "^1.0.0-rc.2",
+    "commander": "^2.15.1",
+    "superagent": "^3.8.2"
+  },
+  "devDependencies": {
+    "prettier": "^1.12.0"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iwisunny/qc-link-checker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iwisunny/qc-link-checker/issues"
+  },
+  "homepage": "https://github.com/iwisunny/qc-link-checker#readme"
+}
